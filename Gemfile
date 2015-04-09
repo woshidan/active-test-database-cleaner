@@ -38,4 +38,4 @@ gem 'spring',        group: :development
 # Use debugger
 # gem 'debugger', group: [:development, :test]
 
-gem 'factory_girl', group: :test
+gem "factory_girl_rails", "~> 4.0", group: :test
