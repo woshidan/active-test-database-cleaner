@@ -1,4 +1,4 @@
-class Customer < CustomerTables
+class Customer < CustomerTable
 # id INTEGER AUTO_INCREMENT,
 # name VARCHAR(32),
 # address VARCHAR(200),

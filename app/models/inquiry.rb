@@ -1,4 +1,4 @@
-class Inquiry < CustomerTables
+class Inquiry < CustomerTable
 # id INTEGER AUTO_INCREMENT,
 # customer_id INTEGER,
 # categpry_type_id INTEGER,

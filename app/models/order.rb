@@ -1,4 +1,4 @@
-class Order < CustomerTables
+class Order < CustomerTable
 # id INTEGER AUTO_INCREMENT,
 # customer_id INTEGER,
 # planed_delivered_date TIMESTAMP,
