@@ -4,10 +4,13 @@ require 'rails/test_help'
 
 class ActiveSupport::TestCase
   self.use_transactional_fixtures = false
-  # Setup all fixtures in test/fixtures/*.yml for all tests in alphabetical order.
-  #
-  # Note: You'll currently still have to declare fixtures explicitly in integration tests
-  # -- they do not yet inherit this setting
+  setup do
+    DatabaseCleaner.start
+    DatabaseCleaner[:active_record,{:model => Customer}].start
+  end
 
-  # Add more helper methods to be used by all tests here...
+  teardown do
+    DatabaseCleaner.clean
+    DatabaseCleaner[:active_record,{:model => Customer}].clean
+  end
 end
