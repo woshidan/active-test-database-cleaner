@@ -1,4 +1,4 @@
-companies_development:
+development:
   adapter: mysql2
   enconding: utf8
   host: localhost
@@ -6,7 +6,7 @@ companies_development:
   username: companies
   password: companies
 
-companies_test:
+test:
   adapter: mysql2
   enconding: utf8
   host: localhost
@@ -14,7 +14,7 @@ companies_test:
   username: companies
   password: companies
 
-companies_production:
+production:
   adapter: mysql2
   enconding: utf8
   host: localhost
