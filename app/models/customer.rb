@@ -1,4 +1,4 @@
-class Customer < ActiveRecord::Base
+class Customer < CustomerTables
 # id INTEGER AUTO_INCREMENT,
 # name VARCHAR(32),
 # address VARCHAR(200),

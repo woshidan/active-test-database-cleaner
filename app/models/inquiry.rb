@@ -1,4 +1,4 @@
-class Inquiry < ActiveRecord::Base
+class Inquiry < CustomerTables
 # id INTEGER AUTO_INCREMENT,
 # customer_id INTEGER,
 # categpry_type_id INTEGER,
