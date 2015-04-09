@@ -22,3 +22,26 @@ production:
   username: companies
   password: companies
 
+customers_development:
+  adapter: mysql2
+  enconding: utf8
+  host: localhost
+  database: customers_development
+  username: customers
+  password: customers
+
+customers_test:
+  adapter: mysql2
+  enconding: utf8
+  host: localhost
+  database: customers_test
+  username: customers
+  password: customers
+
+customers_production:
+  adapter: mysql2
+  enconding: utf8
+  host: localhost
+  database: customers_production
+  username: customers
+  password: customers
